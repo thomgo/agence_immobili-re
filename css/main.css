@@ -94,21 +94,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
+body, #personal_space {
   display: flex;
 }
 
-header {
+body {
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+}
+
+header, nav {
   width: 100%;
 }
- header section {
-   margin: auto;
- }
 
 h1 {
   font-family: 'Prompt', sans-serif;
   font-size: 1.1em;
   margin-top: .3em;
+}
+
+h2, h3, h4, a {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+p, span {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  background-color: #b20873;
+  color: white;
+}
+
+.navbar-toggler, nav ul {
+  margin-top: .3em;
+}
+
+.navbar-toggler {
+  color: #11b200;
 }
 
 /* ##################################################################### */
