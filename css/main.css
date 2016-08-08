@@ -116,12 +116,12 @@ h1 {
   margin-top: .3em;
 }
 
-h2, h3, h4, a {
-  font-family: 'Reem Kufi', sans-serif;
-}
-
 p, span {
   font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3, h4, a, .appeal {
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 nav {
@@ -135,6 +135,19 @@ nav {
 
 .navbar-toggler {
   color: #11b200;
+}
+
+.jumbotron {
+  height: 50vh;
+  background-image: url(../img/lille_large.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.appeal {
+  color: #b20873;
+  font-size: 3em;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* ##################################################################### */
