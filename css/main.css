@@ -94,6 +94,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*
+
+~~~~~~~~~General settings~~~~~~~~
+
+*/
+
 body, #personal_space {
   display: flex;
 }
@@ -112,11 +119,6 @@ header, nav, footer {
   width: 100%;
 }
 
-h1 {
-  font-family: 'Prompt', sans-serif;
-  font-size: 1.1em;
-}
-
 p, span {
   font-family: 'Open Sans', sans-serif;
 }
@@ -133,7 +135,24 @@ nav, footer {
   color: white;
 }
 
-nav {
+/*
+
+~~~~~~~~~ End General settings~~~~~~~~
+
+*/
+
+/*
+
+~~~~~~~~~Top content settings~~~~~~~~
+
+*/
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.1em;
+}
+
+body nav:nth-child(2) {
   background-color: #b20873;
 }
 
@@ -162,6 +181,34 @@ nav aside span {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+/*
+
+~~~~~~~~~End top content settings~~~~~~~~
+
+*/
+
+/*
+
+~~~~~~~~~Main content settings~~~~~~~~
+
+*/
+
+
+
+/*
+
+~~~~~~~~~End main content settings~~~~~~~~
+
+*/
+
+
+/*
+
+~~~~~~~~~Footer settings~~~~~~~~
+
+*/
+
+
 footer {
   background-color: #323232;
   position: absolute;
@@ -176,6 +223,12 @@ footer p {
 footer h4 {
   font-size: 1.2em;
 }
+
+/*
+
+~~~~~~~~~End footer settings~~~~~~~~
+
+*/
 
 /* ##################################################################### */
 /* ############################   TABLETS   ############################ */
@@ -192,7 +245,7 @@ footer h4 {
     margin-top: .3em;
   }
 
-  nav a:hover, nav aside:hover {
+  body nav:nth-child(2) a:hover, nav aside:hover {
     background-color: white;
     color: #b20873;
     border-radius: 2px;
