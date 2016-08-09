@@ -108,7 +108,6 @@ body, #personal_space {
 body {
   min-height: 100vh;
   flex-direction: column;
-  position: relative;
 }
 
 a, a:hover {
@@ -119,7 +118,7 @@ header, nav, footer {
   width: 100%;
 }
 
-p, span {
+p, span, form {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -131,7 +130,7 @@ h2, h3, h4, a, .appeal {
   margin-top: .3em;
 }
 
-nav, footer {
+nav, footer, #find_button, #search_form h3 {
   color: white;
 }
 
@@ -193,7 +192,16 @@ nav aside span {
 
 */
 
+#search_form {
+  background-color: #11b200;
+}
 
+#find_button {
+  background-color: #b20873;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*
 
@@ -211,8 +219,6 @@ nav aside span {
 
 footer {
   background-color: #323232;
-  position: absolute;
-  bottom: 0;
   font-size: .8em;
 }
 
@@ -294,6 +300,10 @@ footer h4 {
 
   .appeal {
     font-size: 3em;
+  }
+
+  #search_form {
+    height: 384px;
   }
 
 }
