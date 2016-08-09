@@ -102,7 +102,7 @@ body {
   flex-direction: column;
 }
 
-a {
+a, a:hover {
   color: inherit;
 }
 
@@ -113,7 +113,6 @@ header, nav {
 h1 {
   font-family: 'Prompt', sans-serif;
   font-size: 1.1em;
-  margin-top: .3em;
 }
 
 p, span {
@@ -124,17 +123,25 @@ h2, h3, h4, a, .appeal {
   font-family: 'Reem Kufi', sans-serif;
 }
 
+.navbar-toggler, nav ul, h1 {
+  margin-top: .3em;
+}
+
 nav {
   background-color: #b20873;
   color: white;
 }
 
-.navbar-toggler, nav ul {
-  margin-top: .3em;
-}
-
 .navbar-toggler {
   color: #11b200;
+}
+
+#small_user {
+  margin-top: .2em;
+}
+
+nav aside span {
+  font-size: .8em;
 }
 
 .jumbotron {
@@ -160,6 +167,26 @@ nav {
   h1 {
     font-size: 2em;
     margin-top: .5em;
+  }
+
+  nav aside span {
+    margin-top: .3em;
+  }
+
+  nav a:hover, nav aside:hover {
+    background-color: white;
+    color: #b20873;
+    border-radius: 2px;
+
+  }
+
+  nav aside:hover {
+    padding: 0 0.3em;
+
+  }
+
+  .on {
+    border-bottom: solid #11b200 3px; 
   }
 
   .jumbotron {
@@ -192,7 +219,7 @@ nav {
   .appeal {
     font-size: 3em;
   }
-  
+
 }
 
 /* ##################################################################### */
