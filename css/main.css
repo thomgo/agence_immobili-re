@@ -99,14 +99,16 @@ body, #personal_space {
 }
 
 body {
+  min-height: 100vh;
   flex-direction: column;
+  position: relative;
 }
 
 a, a:hover {
   color: inherit;
 }
 
-header, nav {
+header, nav, footer {
   width: 100%;
 }
 
@@ -127,9 +129,12 @@ h2, h3, h4, a, .appeal {
   margin-top: .3em;
 }
 
+nav, footer {
+  color: white;
+}
+
 nav {
   background-color: #b20873;
-  color: white;
 }
 
 .navbar-toggler {
@@ -157,6 +162,20 @@ nav aside span {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+footer {
+  background-color: #323232;
+  position: absolute;
+  bottom: 0;
+  font-size: .8em;
+}
+
+footer p {
+  font-size: .8em;
+}
+
+footer h4 {
+  font-size: 1.2em;
+}
 
 /* ##################################################################### */
 /* ############################   TABLETS   ############################ */
@@ -186,7 +205,7 @@ nav aside span {
   }
 
   .on {
-    border-bottom: solid #11b200 3px; 
+    border-bottom: solid #11b200 3px;
   }
 
   .jumbotron {
@@ -196,6 +215,10 @@ nav aside span {
 
   .appeal {
     font-size: 2em;
+  }
+
+  footer p {
+    font-size: .9em;
   }
 
 }
