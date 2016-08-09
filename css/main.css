@@ -138,23 +138,17 @@ nav {
 }
 
 .jumbotron {
-  height: 50vh;
-  background-image: url(../img/lille_large.jpg);
+  height: 40vh;
+  background-image: url(../img/lille_min.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .appeal {
   color: #b20873;
-  font-size: 3em;
+  font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
-/* ##################################################################### */
-/* ##########################   SMARTPHONE   ########################### */
-/* ##################################################################### */
-/* Extra small devices (phones, less than 768px) */
-
 
 
 /* ##################################################################### */
@@ -168,6 +162,14 @@ nav {
     margin-top: .5em;
   }
 
+  .jumbotron {
+    height: 30vh;
+    background-image: url(../img/lille_medium.jpg);
+  }
+
+  .appeal {
+    font-size: 2em;
+  }
 
 }
 
@@ -177,6 +179,20 @@ nav {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  h1 {
+    font-size: 2.7em;
+    margin-top: 1em;
+  }
+
+  .jumbotron {
+    height: 50vh;
+    background-image: url(../img/lille_large.jpg);
+  }
+
+  .appeal {
+    font-size: 3em;
+  }
+  
 }
 
 /* ##################################################################### */
@@ -184,11 +200,6 @@ nav {
 /* ##################################################################### */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-  h1 {
-    font-size: 2.7em;
-    margin-top: 1em;
-  }
 
 }
 
