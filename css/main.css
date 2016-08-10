@@ -115,7 +115,7 @@ a, a:hover {
   color: inherit;
 }
 
-header, nav, footer,  section aside {
+header, nav, footer,  section aside, iframe {
   width: 100%;
 }
 
@@ -131,8 +131,16 @@ h2, h3, h4, h5, h6, a, .appeal {
   margin-top: .3em;
 }
 
-nav, footer, #find_button, #search_form h3, .head {
+nav, footer, #find_button, #search_form h3, .head, #contact_button {
   color: white;
+}
+
+.navbar-toggler, .green {
+  color: #11b200;
+}
+
+.appeal, .purple {
+  color: #b20873;
 }
 
 /*
@@ -156,10 +164,6 @@ body nav:nth-child(2) {
   background-color: #b20873;
 }
 
-.navbar-toggler {
-  color: #11b200;
-}
-
 #small_user {
   margin-top: .2em;
 }
@@ -176,7 +180,6 @@ nav aside span {
 }
 
 .appeal {
-  color: #b20873;
   font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -197,15 +200,20 @@ nav aside span {
   background-color: #11b200;
 }
 
-#find_button, .head {
+#find_button, .head, #contact_button {
   background-color: #b20873;
 }
 
-#find_button{
+#find_button, #contact_button{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+iframe {
+  height: 300px;
+}
+
 /*
 
 ~~~~~~~~~End main content settings~~~~~~~~
@@ -292,6 +300,11 @@ footer h4 {
     background-color: rgba(17, 178, 0, 0.7);
   }
 
+  iframe {
+    height: 400px;
+  }
+
+
   footer p {
     font-size: .9em;
   }
@@ -325,6 +338,11 @@ footer h4 {
   #search_form {
     height: 380px;
   }
+
+  iframe {
+    height: 480px;
+  }
+
 
 }
 
