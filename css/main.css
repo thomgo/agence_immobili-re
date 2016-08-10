@@ -119,7 +119,7 @@ header, nav, footer,  section aside, iframe {
   width: 100%;
 }
 
-p, span, form, #find_button {
+p, span, form, #find_button, figcaption {
   font-family: 'Open Sans', sans-serif;
 }
 
