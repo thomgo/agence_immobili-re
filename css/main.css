@@ -119,7 +119,7 @@ header, nav, footer,  section aside {
   width: 100%;
 }
 
-p, span, form {
+p, span, form, #find_button {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -193,7 +193,7 @@ nav aside span {
 
 */
 
-#search_form {
+#search_form, .top_search {
   background-color: #11b200;
 }
 
@@ -277,6 +277,15 @@ footer h4 {
 
   .appeal {
     font-size: 2em;
+  }
+
+  .top_search form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top_search .form-control {
+    width: 180px;
   }
 
   figure div .carousel-caption {
