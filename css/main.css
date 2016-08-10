@@ -284,6 +284,10 @@ footer h4 {
     flex-wrap: wrap;
   }
 
+  .top_search .form-control {
+    width: 180px;
+  }
+
   figure div .carousel-caption {
     background-color: rgba(17, 178, 0, 0.7);
   }
