@@ -101,7 +101,7 @@ textarea {
 
 */
 
-body, #personal_space, .gallery {
+body, #personal_space, .gallery, .description {
   display: flex;
 }
 
@@ -217,6 +217,12 @@ iframe {
 .gallery {
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.description {
+  justify-content: space-around;
+  font-size: 0.8em;
+  font-style: italic;
 }
 /*
 
