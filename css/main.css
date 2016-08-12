@@ -214,6 +214,11 @@ iframe {
   height: 300px;
 }
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 /*
 
 ~~~~~~~~~End main content settings~~~~~~~~
@@ -246,6 +251,12 @@ footer h4 {
 ~~~~~~~~~End footer settings~~~~~~~~
 
 */
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 100%;
+  }
+}
 
 /* ##################################################################### */
 /* ############################   TABLETS   ############################ */
