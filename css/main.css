@@ -232,6 +232,17 @@ iframe {
   right: 1%;
   z-index: 1000;
 }
+
+#card_overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+  z-index: 1000000;
+}
 /*
 
 ~~~~~~~~~End main content settings~~~~~~~~
@@ -264,6 +275,8 @@ footer h4 {
 ~~~~~~~~~End footer settings~~~~~~~~
 
 */
+
+/*Fixe a displaying bug for the container on mobile device*/
 
 @media (max-width: 400px) {
   .container {
