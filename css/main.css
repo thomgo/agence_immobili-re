@@ -139,7 +139,7 @@ nav, footer, #find_button, #search_form h3, .head, #contact_button {
   color: #11b200;
 }
 
-.appeal, .purple {
+.appeal, .purple, .fa-arrow-up {
   color: #b20873;
 }
 
@@ -198,6 +198,7 @@ nav aside span {
 
 #search_form, .top_search {
   background-color: #11b200;
+  box-shadow: 0px 0px 8px black inset;
 }
 
 #find_button, .head, #contact_button {
@@ -223,6 +224,13 @@ iframe {
   justify-content: space-around;
   font-size: 0.8em;
   font-style: italic;
+}
+
+.fa-arrow-up {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  z-index: 1000;
 }
 /*
 
