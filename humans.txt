@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+Thomas Gossart : main author.
+https://thomgo.github.io/portfolio/
 
 # THANKS
 
-    <name>
+  I would like to thank Yossi Kolesnicov for his great plugin yoxview that I used for my gallerie image.
 
 # TECHNOLOGY COLOPHON
 
